@@ -1,0 +1,516 @@
+/*START OF FIRST PAGE*/ 
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*PARENT DIV OF FIRST PAGE*/ 
+.main-div { 
+  height: 100%;
+  width: 100%;
+}
+
+/*PARENT DIV OF FIRST PAGE*/ 
+
+/*HEADER*/ 
+header {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  justify-content: right;
+  margin: 6px;
+  height: 48px;
+}
+
+.name-logo {
+  font-size: 30px;
+  margin-right: auto;
+}
+
+.header-menu {
+  height: 48px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(199, 21, 21);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.menu-logo{
+  height: 15px;
+  width: 15px;
+}
+/*HEADER*/ 
+
+/*BODY*/ 
+body {
+  margin: 0;
+  padding: 0;
+}
+/*BODY*/ 
+
+/*AVEN LOGO*/ 
+.main-logo-div{
+  height: 30vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  z-index: 1;
+}
+
+.main-logo{
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+.animation {
+  -webkit-animation: simple-rotate 2s 2s linear infinite alternate;
+  animation: simple-rotate 2s 2s linear infinite alternate;
+}
+
+@-webkit-keyframes simple-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes simple-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*AVEN LOGO*/ 
+
+/*SEARCH BAR*/ 
+
+.search-div {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.search-bar-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+  width:575px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+
+.search-bar-div:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.search-bar-div:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+.searchbar{
+  height:45px;
+  border:none;
+  width:500px;
+  font-size:16px;
+  outline: none;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+.voice{
+  height:20px;
+  position:relative;
+  top:5px;
+  left:10px;
+}
+/*SEARCH BAR*/ 
+
+/*BUTTONS*/ 
+.buttons{
+  margin-top:30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+}
+.button{
+  background-color: #f5f5f5;
+  border:none;
+  color:#707070;
+  font-size:15px;
+  padding: 10px 20px;
+  margin:5px;
+  border-radius:4px;
+  outline:none;
+}
+.button:hover{
+  border: 1px solid #c8c8c8;
+  padding: 9px 19px;
+  color:#808080;
+}
+.button:focus{
+  border:1px solid #4885ed;
+  padding: 9px 19px;
+}
+/*BUTTONS*/
+
+/*FOOTER*/
+.main-bottom{
+  font-size: 15px;
+  display: flex;
+  height: 40vh;
+  align-items: end;
+}
+
+.pilipinas-footer{
+  background-color: #f3ecec;
+  box-sizing: border-box;
+  padding: 15px;
+  border-bottom: 1px;
+  color: #70757a;
+  height: 48px;
+  font-family: arial sans-serif;
+  width: 100%;
+}
+/*FOOTER*/
+/*END OF FIRST PAGE*/ 
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*START OF SEARCH PAGE*/ 
+/*PARENT DIV OF SEARCH PAGE*/ 
+.about-me{
+  height: 100vh;
+  font-family: arial, sans-serif;
+}
+/*PARENT DIV OF SEARCH PAGE*/ 
+
+.about-me-header {
+  height: 69px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+
+.about-me-logo {
+  height: 30px;
+}
+
+.about-me-search-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:20px;
+  width:575px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+  margin-right: auto;
+}
+
+.about-me-search-div:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.about-me-search-div:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+
+hr {
+  background-color: #faeded;
+  height: 1px;
+}
+
+.small-logo-and-site {
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px 10px 10px 0px;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  width: fit-content;
+}
+.small-logo {
+  background-color: #F1F3F4;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dadce0;
+  flex-direction: row;
+}
+
+.linkedin-logo{
+  height: 18px;
+  width: 18px;
+}
+
+.website {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  margin-left: 10px;
+  line-height: 0px;
+}
+
+.linkedin-ph {
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #202124;
+}
+
+.linkedin-website {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #4D5156;
+}
+
+.main-link {
+  height: 31px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.personal-details {
+  font-size: 14px;
+  color: #70757A;
+  margin-bottom: 9px;
+}
+
+.small-details{
+  width: 600px;
+  font-size: 14px;
+  color: #4D5156;
+}
+
+.linkedin-link {
+  text-decoration: none;
+  color: #1A0DAB;
+}
+
+.linkedin-link:visited {
+  text-decoration: none;
+  color: #681DA8;
+}
+
+.linkedin-link-black {
+  text-decoration: none;
+}
+
+.about-me-resume {
+  margin-top: 10px;
+}
+/*END OF SEARCH PAGE*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*START OF ABOUT ME PAGE*/
+
+.about-me-page {
+  height: fit-content;
+  font-family: arial, sans-serif;
+}
+
+.about-me-content {
+  display: grid;
+  width: auto;
+  height: 100vh;
+  grid-template-columns: 50% 50%;
+  background-image: url("https://img.freepik.com/premium-vector/background-with-gears-sides_606226-543.jpg?w=2000");
+  background-repeat: no-repeat;
+}
+
+.about-me-pic {
+  box-sizing: border-box;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-words {
+  box-sizing: border-box;
+  padding: 130px 40px 40px 40px;
+  font-family: 'Gabarito', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.fullstack-eng-pic {
+  height: 60px;
+}
+
+.sap-dev-pic {
+  height: 55px;
+}
+
+.mech-eng-pic{
+  height: 60px;
+}
+
+.my-picture{
+  height: 500px;
+}
+
+.skills-div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+  background-image: url("https://img.freepik.com/premium-vector/background-with-gears-sides_606226-543.jpg?w=2000");
+  background-repeat: no-repeat;
+  font-family: 'Gabarito', Arial, sans-serif;
+}
+
+.skills-logo {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+/*END OF ABOUT ME PAGE*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*START OF PROJECTS PAGE*/
+.project-div {
+  font-family: arial, sans-serif;
+}
+
+.projects-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/*END OF PROJECTS PAGE*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*START OF CONTACT ME PAGE*/
+.contact-me {
+  font-family: arial, sans-serif;
+}
+
+.contact-me-page {
+  font-family: 'Ubuntu', arial, sans-serif;
+
+}
+/*END OF CONTACT ME PAGE*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*REUSABLE*/
+.text-color {
+  color:#70757a
+}
+
+.padding-70 {
+  box-sizing: border-box;
+  padding-left: 70px;
+}
+
+.padding-20-top {
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+.two-hundred-px {
+  height: 70px;
+}
+
+.title-name {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+}
+
+.header-button {
+  text-decoration: none;
+  color: black;
+}
+
+.z-index-two {
+  z-index: 2;
+}
+/*REUSABLE*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*GENERAL*/
+figcaption{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.popup {
+  width: 400px;
+  background:#bad4ff;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  visibility: hidden;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  transition: transform 0.4s, top 0.4s;
+  font-family: 'Ubuntu', sans-serif;
+  z-index: 3;
+}
+
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+
+.popup button {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: #6fd649;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba (0, 0, 0, 0.2);
+}
+
+.two-hundred-px-proj {
+  height: 200px;
+}
+/*GENERAL*/

@@ -1,0 +1,524 @@
+/*START OF FIRST PAGE*/ 
+
+/*PARENT DIV OF FIRST PAGE*/ 
+.main-div { 
+  height: 100vh;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+/*PARENT DIV OF FIRST PAGE*/ 
+
+/*HEADER*/ 
+header {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  justify-content: right;
+  margin: 6px;
+  height: 48px;
+  width: auto;
+}
+
+.name-logo {
+  font-size: 30px;
+  margin-right: auto;
+}
+
+.header-menu {
+  height: 48px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(199, 21, 21);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*HEADER*/ 
+
+/*AVEN LOGO*/ 
+.main-logo-div{
+  height: 30vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  z-index: 1;
+}
+
+.main-logo{
+  height: 40px;
+  margin-bottom: 20px;
+  justify-self: center;
+}
+
+.animation {
+  -webkit-animation: simple-rotate 2s 2s linear infinite alternate;
+  animation: simple-rotate 2s 2s linear infinite alternate;
+}
+
+@-webkit-keyframes simple-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes simple-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*AVEN LOGO*/ 
+
+/*SEARCH BAR*/ 
+.search-div {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.search-bar-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+  width:250px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+
+.search-bar-div:hover{
+ box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.search-bar-div:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+.searchbar{
+  height:30px;
+  border:none;
+  width:500px;
+  font-size:12px;
+  outline: none;
+}
+/*SEARCH BAR*/ 
+
+/*BUTTONS*/ 
+.buttons{
+  margin-top:30px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+}
+
+.button{
+  background-color: #f5f5f5;
+  border: none;
+  color:#707070;
+  font-size:10px;
+  padding: 10px 20px;
+  margin:5px;
+  border-radius:4px;
+  outline:none;
+}
+.button:hover{
+  border: 1px solid #c8c8c8;
+  padding: 9px 19px;
+  color:#808080;
+}
+.button:focus{
+  border:1px solid #4885ed;
+  padding: 9px 19px;
+}
+/*BUTTONS*/
+
+/*FOOTER*/
+.main-bottom{
+  font-size: 10px;
+  display: flex;
+  height: 95vh;
+  width: auto;
+  margin: none;
+  align-items: end;
+  overflow: hidden;
+}
+
+.pilipinas-footer{
+  background-color: #f3ecec;
+  box-sizing: border-box;
+  padding: 15px;
+  border-bottom: 1px;
+  color: #70757a;
+  height: 48px;
+  font-family: arial sans-serif;
+  width: 100%;
+}
+/*FOOTER*/
+/*END OF FIRST PAGE*/ 
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*START OF SEARCH PAGE*/ 
+/*PARENT DIV OF SEARCH PAGE*/ 
+.about-me{
+  height: 100vh;
+  font-family: arial, sans-serif;
+}
+/*PARENT DIV OF SEARCH PAGE*/ 
+
+.about-me-header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  flex-wrap: wrap;
+}
+
+.about-me-logo {
+  height: 15px;
+}
+
+.about-me-search-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:20px;
+  width:200px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+  margin-right: auto;
+}
+
+  .about-me-search-div:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+
+  .about-me-search-div:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+  }
+
+hr {
+  margin-top: 10px;
+  background-color: #faeded;
+  height: 1px;
+}
+
+.small-logo-and-site {
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px 10px 10px 0px;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  width: fit-content;
+}
+.small-logo {
+  background-color: #F1F3F4;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dadce0;
+  flex-direction: row;
+}
+
+.linkedin-logo{
+  height: 18px;
+  width: 18px;
+}
+
+.website {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  margin-left: 10px;
+  line-height: 0px;
+}
+
+.linkedin-ph {
+  margin-bottom: 0px;
+  font-size: 12px;
+  color: #202124;
+}
+
+.linkedin-website {
+  margin-top: 20px;
+  font-size: 10px;
+  color: #4D5156;
+}
+
+.main-link {
+  height: 31px;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.personal-details {
+  font-size: 10px;
+  color: #70757A;
+  margin-bottom: 9px;
+}
+
+.small-details{
+  width: 250px;
+  font-size: 10px;
+  color: #4D5156;
+}
+
+.linkedin-link {
+  text-decoration: none;
+  color: #1A0DAB;
+}
+
+.linkedin-link:visited {
+  text-decoration: none;
+  color: #681DA8;
+}
+
+.linkedin-link-black {
+  text-decoration: none;
+}
+
+.about-me-resume {
+  margin-top: 10px;
+}
+/*END OF SEARCH PAGE*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*START OF ABOUT ME PAGE*/
+
+.about-me-page {
+  height: fit-content;
+  font-family: arial, sans-serif;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/premium-vector/background-with-gears-sides_606226-543.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-me-pic {
+  box-sizing: border-box;
+  padding: 40px;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.my-picture {
+    height: 250px;
+}
+
+.about-me-words {
+  box-sizing: border-box;
+  height: auto;
+  padding: 60px 40px 40px 40px;
+  font-family: 'Gabarito', Arial, sans-serif;
+  font-size: 20px;
+  background-image: url("https://img.freepik.com/premium-vector/background-with-gears-sides_606226-543.jpg?w=2000");
+  background-repeat:repeat;
+  background-size: cover;
+}
+
+.fullstack-eng-pic {
+  height: 40px;
+}
+
+.sap-dev-pic {
+  height: 35px;
+}
+
+.mech-eng-pic{
+  height: 40px;
+}
+
+.skills-div {
+  background-image: url("https://img.freepik.com/premium-vector/background-with-gears-sides_606226-543.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Gabarito', Arial, sans-serif;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.skills-logo {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  padding-bottom: 20px;
+}
+
+/*END OF ABOUT ME PAGE*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*START OF PROJECTS PAGE*/
+.project-div {
+  font-family: arial, sans-serif;
+  font-size: 10px;
+}
+
+.projects-logo {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 10px;
+}
+
+.figure {
+  width: 10px;
+  margin: 27px;
+}
+/*END OF PROJECTS PAGE*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*START OF CONTACT ME PAGE*/
+.contact-me {
+  font-family: arial, sans-serif;
+}
+
+.contact-me-page {
+  font-family: 'Ubuntu', arial, sans-serif;
+
+}
+/*END OF CONTACT ME PAGE*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*REUSABLE*/
+.text-color {
+  color:#70757a;
+  font-size: 10px;
+}
+
+.padding-70 {
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+
+.padding-20-top {
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+.two-hundred-px {
+  height: 20px;
+}
+
+.title-name {
+  height: 10vh;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: auto;
+}
+
+.header-button {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+}
+
+.z-index-two {
+  z-index: 2;
+}
+
+.two-hundred-px-proj {
+  height: 20px;
+}
+/*REUSABLE*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*GENERAL*/
+figcaption{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.popup-div {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.popup {
+  justify-self: center;
+  width: 200px;
+  background:#bad4ff;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  visibility: hidden;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  transition: transform 0.4s, top 0.4s;
+  font-family: 'Ubuntu', sans-serif;
+  z-index: 3;
+}
+
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+
+.popup button {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: #6fd649;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba (0, 0, 0, 0.2);
+}
+/*GENERAL*/

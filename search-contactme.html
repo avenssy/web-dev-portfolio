@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aven Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="smallscreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="smallerscreen.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <div class ="about-me">
+        <div class="about-me-header padding-70">
+          <a href="main.html"><img class = "about-me-logo" src="Aven-10-1-2023.jpg" alt = "main logo"/></a>
+          <div class = "about-me-search-div">
+            <input class="searchbar" id = "searchbar" type="text" title="Search" placeholder="Type something like About, Projects, or Contact Me">
+          </div>
+          <div class = "header-menu">
+            <a class = "header-button" href = "aboutme.html"><p>About</p></a>
+            <a class = "header-button" href = "projects.html"><p>Projects</p></a>
+            <a class = "header-button" href = "mailto:avenssy@gmail.com"><p>Contact Me</p></a>
+            <a class = "header-button" href = "https://gitlab.com/avenssy"><img class = "menu-logo" src="data:image/png;base64,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" alt="GitLab Logo"></a>
+            <a class = "header-button" href = "https://www.linkedin.com/in/avenssy/?originalSubdomain=ph"><img class = "menu-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" alt="Linkedin Logo"></a>
+            <span class="circle">A</span>
+          </div>
+        </div>
+        <hr>
+        <div class = "text-color padding-70">
+          About 1 result (0.16 seconds)
+        </div>
+        <div class = "contact-me-page padding-70 padding-20-top">
+            <a class = "linkedin-link-black" href="mailto:avenssy@gmail.com"><div class = "small-logo-and-site">
+              <div class = "small-logo">
+                <img class = "linkedin-logo" src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXRgfKaKytjEIvjd0XEjFKkM7ochFCwxhuO7AXZt7EDuCoANQgN8uQjwQAnS_qOiiE67g&usqp=CAU" alt = "GitLab logo"/>    
+              </div>
+              <div class ="website">
+                  <p class = "linkedin-ph">Aven Sy</p>
+                  <p class = "linkedin-website">https://avensy.com/contact-me</p>     
+              </div>
+            </div></a>
+            <div class = "main-link">
+              <a class = "linkedin-link" href="mailto:avenssy@gmail.com">Aven Sy - Contact Me</a>
+            </div>
+            <div class = "personal-details">
+              Quezon City, National Capital Region, Philippines
+            </div>
+            <div class = "small-details">
+              Fullstack Engineer. SAP Developer. Mechanical Engineer.
+            </div>
+        </div>
+    </div>
+    <script>
+      let input = document.getElementById('searchbar');
+      input.addEventListener('keydown', function (event) {
+        if (event.keyCode == 13) {
+          googleSearch();
+        }
+      });
+    </script>
+</body>
+</html>
